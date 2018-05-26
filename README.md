@@ -20,3 +20,4 @@ g++ qlearn.cpp -o main `pkg-config --cflags --libs opencv` -std=c++11
 
 # Result in action    
 Left side is the RL agent moving randomly to search for the destination, while right side is the predicted path using updated Q-matrix    
+![Alt Text](https://raw.githubusercontent.com/2vin/Q-learning/master/result/qlearn.gif)
