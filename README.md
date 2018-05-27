@@ -8,7 +8,7 @@ The RL agent is allowed to take random moves and explore the movable areas in or
 (Note: All the diagonal moves and straight moves are equal weightage)    
 
 # Compile    
-g++ qlearn.cpp -o main `pkg-config --cflags --libs opencv` -std=c++11     
+g++ qlearn.cpp -o main \`pkg-config --cflags --libs opencv\` -std=c++11     
 
 # Usage   
 ./main arenaWidth arenaHeight X_start Y_start X_dest Y_dest    
